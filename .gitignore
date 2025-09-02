@@ -1,2 +1,5 @@
 .ipynb_checkpoints/
 yolo*
+.*swp
+dataset
+runs
