@@ -1,0 +1,30 @@
+EarlyStopping: Training stopped early as no improvement observed in last 100 epochs. Best results observed at epoch 86, best model saved as best.pt.
+To update EarlyStopping(patience=100) pass a new patience value, i.e. `patience=300` or use `patience=0` to disable EarlyStopping.
+
+186 epochs completed in 9.993 hours.
+Optimizer stripped from YOLO11N/train4/weights/last.pt, 3.2MB
+Optimizer stripped from YOLO11N/train4/weights/best.pt, 3.2MB
+
+Validating YOLO11N/train4/weights/best.pt...
+Ultralytics 8.3.186 🚀 Python-3.10.18 torch-1.13.1+cu117 CUDA:0 (NVIDIA GeForce RTX 3060, 12036MiB)
+YOLO11n-cls summary (fused): 47 layers, 1,528,586 parameters, 0 gradients, 3.2 GFLOPs
+train: /home/zionsflow/FallDetec/mc855/dataset/train... found 5530 images in 2 classes ✅ 
+val: /home/zionsflow/FallDetec/mc855/dataset/val... found 1383 images in 2 classes ✅ 
+test: None...
+               classes   top1_acc   top5_acc: 100% ━━━━━━━━━━━━ 173/173 8.0it/s 21.6s
+                   all       0.94          1
+Speed: 6.2ms preprocess, 3.3ms inference, 0.0ms loss, 0.0ms postprocess per image
+Results saved to YOLO11N/train4
+ultralytics.utils.metrics.ClassifyMetrics object with attributes:
+
+confusion_matrix: <ultralytics.utils.metrics.ConfusionMatrix object at 0x7984bbd637f0>
+curves: []
+curves_results: []
+fitness: 0.9699927568435669
+keys: ['metrics/accuracy_top1', 'metrics/accuracy_top5']
+results_dict: {'metrics/accuracy_top1': 0.9399855136871338, 'metrics/accuracy_top5': 1.0, 'fitness': 0.9699927568435669}
+save_dir: PosixPath('YOLO11N/train4')
+speed: {'preprocess': 6.2207029211528155, 'inference': 3.287803950900177, 'loss': 0.002551185906058634, 'postprocess': 0.00819810551664619}
+task: 'classify'
+top1: 0.9399855136871338
+top5: 1.0
