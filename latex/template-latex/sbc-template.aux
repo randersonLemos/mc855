@@ -1,0 +1,135 @@
+\relax 
+\providecommand\babel@aux[2]{}
+\@nameuse{bbl@beforestart}
+\catcode `"\active 
+\bibstyle{plainnat}
+\citation{ultralytics2025}
+\citation{payutch2025}
+\citation{kaggle2025}
+\citation{payutch2025}
+\babel@aux{portuguese}{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introdução}{1}{}\protected@file@percent }
+\newlabel{sec:introd}{{1}{1}{Introdução}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Dados}{1}{}\protected@file@percent }
+\newlabel{sec:dados}{{2}{1}{Dados}{}{}}
+\citation{Alam2024GMDCSA24}
+\citation{charfi2013fall}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Imagens de um vídeo da base de dados \textit  {Fall Video Dataset}.}}{2}{}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:ds-sample-1}{{1}{2}{Dados}{}{}}
+\citation{payutch2025,Alam2024GMDCSA24,charfi2013fall}
+\citation{ultralytics2025}
+\newlabel{fig:ds-sample-2}{{2a}{3}{Dados}{}{}}
+\newlabel{sub@fig:ds-sample-2}{{a}{3}{Dados}{}{}}
+\newlabel{fig:ds-sample-3}{{2b}{3}{Dados}{}{}}
+\newlabel{sub@fig:ds-sample-3}{{b}{3}{Dados}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Imagem de um vídeo da base de dados GMDCSA-24 e \textit  {Le2i Fall Dataset}.}}{3}{}\protected@file@percent }
+\newlabel{fig:ds-samples-2-3}{{2}{3}{Dados}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Metodologia}{3}{}\protected@file@percent }
+\newlabel{sec:meto}{{3}{3}{Metodologia}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Pré-processamento}{3}{}\protected@file@percent }
+\newlabel{subsec:pre-proc}{{3.1}{3}{Pré-processamento}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}Pré-processamento: do vídeo para imagem}{3}{}\protected@file@percent }
+\newlabel{subsubsec:pre-proc-1}{{3.1.1}{3}{Pré-processamento: do vídeo para imagem}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Sequência de 15 imagens “menores” \ nas dimensões de 100 por 100 pixels de uma pessoa em condição de queda provenientes de um vídeo da base de dados \textit  {Fall Video Dataset}.}}{4}{}\protected@file@percent }
+\newlabel{fig:ds-preproc-1}{{3}{4}{Pré-processamento: do vídeo para imagem}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Composição horizontal das imagens “menores” para codificação da condição de queda (ou de não queda).}}{4}{}\protected@file@percent }
+\newlabel{fig:ds-preproc-horiz-1}{{4}{4}{Pré-processamento: do vídeo para imagem}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Composição matricial das imagens “menores” para codificação de queda (ou de não queda).}}{5}{}\protected@file@percent }
+\newlabel{fig:ds-preproc-matr-1}{{5}{5}{Pré-processamento: do vídeo para imagem}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2}Pré-processamento: da imagem para a YOLO}{5}{}\protected@file@percent }
+\newlabel{subsubsec:pre-proc-2}{{3.1.2}{5}{Pré-processamento: da imagem para a YOLO}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Resultado do ajuste da imagem em composição horizontal para o aspecto quadrado.}}{6}{}\protected@file@percent }
+\newlabel{fig:ds-preproc-yolo-horiz-1}{{6}{6}{Pré-processamento: da imagem para a YOLO}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Resultado do ajuste da imagem em composição matricial para o aspecto quadrado.}}{6}{}\protected@file@percent }
+\newlabel{fig:ds-preproc-yolo-matr-1}{{7}{6}{Pré-processamento: da imagem para a YOLO}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.3}Pré-processamento: aumentação de dados}{6}{}\protected@file@percent }
+\newlabel{subsubsec:pre-proc-3}{{3.1.3}{6}{Pré-processamento: aumentação de dados}{}{}}
+\citation{ultralytics2025}
+\citation{lecun1998gradient}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Aumentação de dados de rotação, recorte e alteração de cor, brilho e contraste.}}{7}{}\protected@file@percent }
+\newlabel{fig:aumentacao-1-3}{{8}{7}{Pré-processamento: aumentação de dados}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.4}Pré-processamento: discussão preliminar}{7}{}\protected@file@percent }
+\newlabel{subsubsec:pre-proc-3}{{3.1.4}{7}{Pré-processamento: discussão preliminar}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Modelo, otimizador e função de perda}{7}{}\protected@file@percent }
+\newlabel{subsec:model}{{3.2}{7}{Modelo, otimizador e função de perda}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Modelo}{7}{}\protected@file@percent }
+\newlabel{subsubsec:model}{{3.2.1}{7}{Modelo}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Ilustração de aplicação de convolução com filtro de detecção de cantos sobre imagem.}}{8}{}\protected@file@percent }
+\newlabel{fig:cnn-filtro}{{9}{8}{Modelo}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Ilustração de aplicação de um filtro sobre uma imagem a partir da convolução com geração de um mapa de ativação.}}{8}{}\protected@file@percent }
+\newlabel{fig:cnn-ativacao}{{10}{8}{Modelo}{}{}}
+\citation{ultralytics2025}
+\citation{boyd2004convex}
+\citation{robbins1951stochastic}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Ilustração de rede neural convolucional.}}{9}{}\protected@file@percent }
+\newlabel{fig:cnn-exemplo}{{11}{9}{Modelo}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Arquitetura da YOLO11N.}}{9}{}\protected@file@percent }
+\newlabel{fig:cnn-yolo}{{12}{9}{Modelo}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Otimizador}{10}{}\protected@file@percent }
+\newlabel{subsubsec:otim}{{3.2.2}{10}{Otimizador}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Formulação do \textit  {Stochastic Gradient Descent} (SGD) com momento.}}{10}{}\protected@file@percent }
+\newlabel{fig:cnn-sgd}{{13}{10}{Otimizador}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.3}Função de perda}{10}{}\protected@file@percent }
+\newlabel{subsubsec:perda}{{3.2.3}{10}{Função de perda}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Função de perda \textit  {Cross Entropy Loss}.}}{11}{}\protected@file@percent }
+\newlabel{fig:cnn-perda}{{14}{11}{Função de perda}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Resultados}{11}{}\protected@file@percent }
+\newlabel{sec:resu}{{4}{11}{Resultados}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Treinamento 1 (ingênuo)}{11}{}\protected@file@percent }
+\newlabel{sec:t1}{{4.1}{11}{Treinamento 1 (ingênuo)}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Treinamento 1: amostra de batch e métricas de desempenho.}}{12}{}\protected@file@percent }
+\newlabel{fig:t1-1}{{15}{12}{Treinamento 1 (ingênuo)}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Treinamento 1: matriz de confusão normalizada.}}{12}{}\protected@file@percent }
+\newlabel{fig:t1-2}{{16}{12}{Treinamento 1 (ingênuo)}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Treinamento 2}{13}{}\protected@file@percent }
+\newlabel{sec:t2}{{4.2}{13}{Treinamento 2}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Treinamento 2: amostra de batch e métricas de desempenho.}}{13}{}\protected@file@percent }
+\newlabel{fig:t2-1}{{17}{13}{Treinamento 2}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Treinamento 2: matriz de confusão normalizada.}}{14}{}\protected@file@percent }
+\newlabel{fig:t2-2}{{18}{14}{Treinamento 2}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Treinamento 3}{14}{}\protected@file@percent }
+\newlabel{sec:t3}{{4.3}{14}{Treinamento 3}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Treinamento 3: amostra de batch e métricas de desempenho.}}{14}{}\protected@file@percent }
+\newlabel{fig:t3-1}{{19}{14}{Treinamento 3}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Treinamento 3: matriz de confusão normalizada.}}{15}{}\protected@file@percent }
+\newlabel{fig:t3-2}{{20}{15}{Treinamento 3}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Treinamento 4}{15}{}\protected@file@percent }
+\newlabel{sec:t4}{{4.4}{15}{Treinamento 4}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Treinamento 4: amostra de batch e métricas de desempenho.}}{16}{}\protected@file@percent }
+\newlabel{fig:t4-1}{{21}{16}{Treinamento 4}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Treinamento 4: matriz de confusão normalizada.}}{16}{}\protected@file@percent }
+\newlabel{fig:t4-2}{{22}{16}{Treinamento 4}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Treinamento 5}{16}{}\protected@file@percent }
+\newlabel{sec:t5}{{4.5}{16}{Treinamento 5}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Treinamento 5: amostra de batch e métricas de desempenho.}}{17}{}\protected@file@percent }
+\newlabel{fig:t5-1}{{23}{17}{Treinamento 5}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Treinamento 5: matriz de confusão normalizada.}}{17}{}\protected@file@percent }
+\newlabel{fig:t5-2}{{24}{17}{Treinamento 5}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Treinamento 6 (último)}{18}{}\protected@file@percent }
+\newlabel{sec:t6}{{4.6}{18}{Treinamento 6 (último)}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Treinamento 6: amostra de batch e métricas de desempenho.}}{18}{}\protected@file@percent }
+\newlabel{fig:t6-1}{{25}{18}{Treinamento 6 (último)}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces Treinamento 6: matriz de confusão normalizada.}}{19}{}\protected@file@percent }
+\newlabel{fig:t6-2}{{26}{19}{Treinamento 6 (último)}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.1}Treinamento 6 (último): teste}{19}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces Amostra 1 de imagens de uma simulação de fluxo real de aplicação da solução de detecção de queda para realização de teste qualitativo do modelo treinado.}}{20}{}\protected@file@percent }
+\newlabel{fig:teste-1}{{27}{20}{Treinamento 6 (último): teste}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces Amostra 2 de imagens de uma simulação de fluxo real de aplicação da solução de detecção de queda para realização de teste qualitativo do modelo treinado.}}{21}{}\protected@file@percent }
+\newlabel{fig:teste-2}{{28}{21}{Treinamento 6 (último): teste}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces Amostra 3 de imagens de uma simulação de fluxo real de aplicação da solução de detecção de queda para realização de teste qualitativo do modelo treinado.}}{22}{}\protected@file@percent }
+\newlabel{fig:teste-3}{{29}{22}{Treinamento 6 (último): teste}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.2}Treinamento 6 (último): discussão}{22}{}\protected@file@percent }
+\bibstyle{sbc}
+\bibdata{sbc-template}
+\bibcite{Alam2024GMDCSA24}{{1}{2024}{{Alam et~al.}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusão}{23}{}\protected@file@percent }
+\newlabel{sec:conc}{{5}{23}{Conclusão}{}{}}
+\bibcite{boyd2004convex}{{2}{2004}{{Boyd and Vandenberghe}}{{}}}
+\bibcite{charfi2013fall}{{3}{2013}{{Charfi et~al.}}{{Charfi, Mitran, Dubois, Atri, and Tourki}}}
+\bibcite{kaggle2025}{{4}{2025}{{Kaggle}}{{}}}
+\bibcite{lecun1998gradient}{{5}{1998}{{LeCun et~al.}}{{LeCun, Bottou, Bengio, and Haffner}}}
+\bibcite{payutch2025}{{6}{2025}{{Payutch}}{{}}}
+\bibcite{robbins1951stochastic}{{7}{1951}{{Robbins and Monro}}{{}}}
+\bibcite{ultralytics2025}{{8}{2025}{{Ultralytics}}{{}}}
+\gdef \@abspage@last{24}

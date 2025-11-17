@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: sbc-template.aux
+The style file: plainnat.bst
+Illegal, another \bibstyle command---line 107 of file sbc-template.aux
+ : \bibstyle
+ :          {sbc}
+I'm skipping whatever remains of this command
+Database file #1: sbc-template.bib
+Warning--entry type for "Alam2024GMDCSA24" isn't style-file defined
+--line 35 of file sbc-template.bib
+Warning--entry type for "charfi2013fall" isn't style-file defined
+--line 43 of file sbc-template.bib
+Warning--I'm ignoring charfi2013fall's extra "note" field
+--line 53 of file sbc-template.bib
+You've used 8 entries,
+            2773 wiz_defined-function locations,
+            647 strings with 6367 characters,
+and the built_in function-call counts, 3270 in all, are:
+= -- 296
+> -- 179
+< -- 6
++ -- 62
+- -- 54
+* -- 231
+:= -- 517
+add.period$ -- 33
+call.type$ -- 8
+change.case$ -- 40
+chr.to.int$ -- 8
+cite$ -- 16
+duplicate$ -- 137
+empty$ -- 277
+format.name$ -- 67
+if$ -- 685
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 4
+newline$ -- 57
+num.names$ -- 32
+pop$ -- 94
+preamble$ -- 1
+purify$ -- 33
+quote$ -- 0
+skip$ -- 116
+stack$ -- 0
+substring$ -- 72
+swap$ -- 8
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 83
+warning$ -- 0
+while$ -- 28
+width$ -- 0
+write$ -- 124
+(There was 1 error message)

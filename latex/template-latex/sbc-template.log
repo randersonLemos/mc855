@@ -1,0 +1,681 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.8)  10 NOV 2025 09:52
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**sbc-template.tex
+(./sbc-template.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (./sbc-template.sty
+Package: sbc-template 2001/06/09
+
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count195
+\Gm@cntv=\count196
+\c@Gm@tempcnt=\count197
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen149
+\captionmargin=\dimen150
+\caption@leftmargin=\dimen151
+\caption@rightmargin=\dimen152
+\caption@width=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count198
+\c@continuedfloat=\count199
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+\c@instn=\count266
+
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box51
+\beforetitleunit=\skip50
+\aftertitleunit=\skip51
+\ttl@plus=\dimen157
+\ttl@minus=\dimen158
+\ttl@toksa=\toks19
+\titlewidth=\dimen159
+\titlewidthlast=\dimen160
+\titlewidthfirst=\dimen161
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count267
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count268
+\U@D=\dimen164
+\l@unhyphenated=\language6
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count269
+Package babel Info: Main language set with 'main='. Except if you have
+(babel)             problems, prefer the default mechanism for setting
+(babel)             the main language, ie, as the last declared.
+(babel)             Reported on input line 4250.
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuguese.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Making " an active character on input line 143.
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/pt/babel-portuguese.tex
+Package babel Info: Importing font and identification data for portuguese
+(babel)             from babel-pt.ini. Reported on input line 11.
+) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip52
+\bibsep=\skip53
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count270
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen165
+\lightrulewidth=\dimen166
+\cmidrulewidth=\dimen167
+\belowrulesep=\dimen168
+\belowbottomsep=\dimen169
+\aboverulesep=\dimen170
+\abovetopsep=\dimen171
+\cmidrulesep=\dimen172
+\cmidrulekern=\dimen173
+\defaultaddspace=\dimen174
+\@cmidla=\count271
+\@cmidlb=\count272
+\@aboverulesep=\dimen175
+\@belowrulesep=\dimen176
+\@thisruleclass=\count273
+\@lastruleclass=\count274
+\@thisrulewidth=\dimen177
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count275
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count276
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count277
+\float@exts=\toks22
+\float@box=\box52
+\@float@everytoks=\toks23
+\@floatcapt=\box53
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
+9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count278
+\l__pdf_internal_box=\box54
+)
+(./sbc-template.aux
+
+LaTeX Warning: Label `subsubsec:pre-proc-3' multiply defined.
+
+)
+\openout1 = `sbc-template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(99.58464pt, 674.33032pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-9.68535pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count279
+\scratchdimen=\dimen178
+\scratchbox=\box55
+\nofMPsegments=\count280
+\nofMParguments=\count281
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count282
+\MPscratchDim=\dimen179
+\MPnumerator=\count283
+\makeMPintoPDFobject=\count284
+\everyMPtoPDFconversion=\toks25
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 32.
+
+Underfull \hbox (badness 4531) in paragraph at lines 52--55
+[]\OT1/ptm/m/n/12 Nas pr[]oximas se[][]oes, de-ta-lhes da base de da-dos es-co-
+lhida, dos pr[]e-
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
+st/fonts/enc/dvips/base/8r.enc}]
+<./imgs/ds-sample-1.png, id=11, 765.86125pt x 555.07375pt>
+File: ./imgs/ds-sample-1.png Graphic file (type png)
+<use ./imgs/ds-sample-1.png>
+Package pdftex.def Info: ./imgs/ds-sample-1.png  used on input line 62.
+(pdftex.def)             Requested size: 213.39568pt x 154.6573pt.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 6
+3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 63.
+<./imgs/ds-sample-2.png, id=13, 1282.7925pt x 718.685pt>
+File: ./imgs/ds-sample-2.png Graphic file (type png)
+<use ./imgs/ds-sample-2.png>
+Package pdftex.def Info: ./imgs/ds-sample-2.png  used on input line 75.
+(pdftex.def)             Requested size: 192.0548pt x 107.58974pt.
+<./imgs/ds-sample-3.png, id=14, 882.29625pt x 615.29875pt>
+File: ./imgs/ds-sample-3.png Graphic file (type png)
+<use ./imgs/ds-sample-3.png>
+Package pdftex.def Info: ./imgs/ds-sample-3.png  used on input line 82.
+(pdftex.def)             Requested size: 192.0548pt x 133.92967pt.
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <8> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 83.
+ [2 <./imgs/ds-sample-1.png>] [3 <./imgs/ds-sample-2.png> <./imgs/ds-sample-3.p
+ng>]
+<./imgs/ds-preproc-1.png, id=26, 646.415pt x 386.44376pt>
+File: ./imgs/ds-preproc-1.png Graphic file (type png)
+<use ./imgs/ds-preproc-1.png>
+Package pdftex.def Info: ./imgs/ds-preproc-1.png  used on input line 109.
+(pdftex.def)             Requested size: 213.39568pt x 127.574pt.
+<./imgs/ds-preproc-horiz-1.png, id=27, 1505.625pt x 100.375pt>
+File: ./imgs/ds-preproc-horiz-1.png Graphic file (type png)
+<use ./imgs/ds-preproc-horiz-1.png>
+Package pdftex.def Info: ./imgs/ds-preproc-horiz-1.png  used on input line 118.
+
+(pdftex.def)             Requested size: 422.52577pt x 28.16759pt.
+<./imgs/ds-preproc-matr-1.png, id=28, 463.7325pt x 460.72125pt>
+File: ./imgs/ds-preproc-matr-1.png Graphic file (type png)
+<use ./imgs/ds-preproc-matr-1.png>
+Package pdftex.def Info: ./imgs/ds-preproc-matr-1.png  used on input line 127.
+(pdftex.def)             Requested size: 213.39568pt x 212.01167pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./imgs/ds-preproc-1.png> <./imgs/ds-preproc-horiz-1.png (PNG copy)>]
+<./imgs/ds-preproc-yolo-horiz-1.png, id=33, 647.41875pt x 651.43375pt>
+File: ./imgs/ds-preproc-yolo-horiz-1.png Graphic file (type png)
+<use ./imgs/ds-preproc-yolo-horiz-1.png>
+Package pdftex.def Info: ./imgs/ds-preproc-yolo-horiz-1.png  used on input line
+ 140.
+(pdftex.def)             Requested size: 213.39568pt x 214.71535pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./imgs/ds-preproc-matr-1.png>]
+<./imgs/ds-preproc-yolo-matr-1.png, id=38, 559.08875pt x 556.0775pt>
+File: ./imgs/ds-preproc-yolo-matr-1.png Graphic file (type png)
+<use ./imgs/ds-preproc-yolo-matr-1.png>
+Package pdftex.def Info: ./imgs/ds-preproc-yolo-matr-1.png  used on input line 
+149.
+(pdftex.def)             Requested size: 213.39568pt x 212.245pt.
+ [6 <./imgs/ds-preproc-yolo-horiz-1.png> <./imgs/ds-preproc-yolo-matr-1.png>]
+<./imgs/aumentacao-1.png, id=44, 427.5975pt x 429.605pt>
+File: ./imgs/aumentacao-1.png Graphic file (type png)
+<use ./imgs/aumentacao-1.png>
+Package pdftex.def Info: ./imgs/aumentacao-1.png  used on input line 162.
+(pdftex.def)             Requested size: 128.0387pt x 128.63994pt.
+<./imgs/aumentacao-2.png, id=45, 427.5975pt x 429.605pt>
+File: ./imgs/aumentacao-2.png Graphic file (type png)
+<use ./imgs/aumentacao-2.png>
+Package pdftex.def Info: ./imgs/aumentacao-2.png  used on input line 169.
+(pdftex.def)             Requested size: 128.0387pt x 128.63994pt.
+<./imgs/aumentacao-3.png, id=46, 427.5975pt x 429.605pt>
+File: ./imgs/aumentacao-3.png Graphic file (type png)
+<use ./imgs/aumentacao-3.png>
+Package pdftex.def Info: ./imgs/aumentacao-3.png  used on input line 176.
+(pdftex.def)             Requested size: 128.0387pt x 128.63994pt.
+
+Underfull \hbox (badness 4291) in paragraph at lines 186--189
+\OT1/ptm/m/n/12 Nesta se[][]ao fo-ram apre-sen-ta-dos os ele-men-tos re-la-ti-v
+os as ati-vi-da-des de pr[]e-
+ []
+
+[7 <./imgs/aumentacao-1.png> <./imgs/aumentacao-2.png> <./imgs/aumentacao-3.png
+>]
+<./imgs/cnn-filtro.png, id=54, 866.23625pt x 288.07625pt>
+File: ./imgs/cnn-filtro.png Graphic file (type png)
+<use ./imgs/cnn-filtro.png>
+Package pdftex.def Info: ./imgs/cnn-filtro.png  used on input line 199.
+(pdftex.def)             Requested size: 422.52577pt x 140.51682pt.
+<./imgs/cnn-ativacao.png, id=55, 1242.6425pt x 392.46625pt>
+File: ./imgs/cnn-ativacao.png Graphic file (type png)
+<use ./imgs/cnn-ativacao.png>
+Package pdftex.def Info: ./imgs/cnn-ativacao.png  used on input line 208.
+(pdftex.def)             Requested size: 422.52577pt x 133.44273pt.
+ [8 <./imgs/cnn-filtro.png> <./imgs/cnn-ativacao.png>]
+<./imgs/cnn-exemplo.png, id=61, 1261.71375pt x 628.3475pt>
+File: ./imgs/cnn-exemplo.png Graphic file (type png)
+<use ./imgs/cnn-exemplo.png>
+Package pdftex.def Info: ./imgs/cnn-exemplo.png  used on input line 217.
+(pdftex.def)             Requested size: 422.52577pt x 210.4234pt.
+<./imgs/cnn-yolo.png, id=62, 879.285pt x 480.79625pt>
+File: ./imgs/cnn-yolo.png Graphic file (type png)
+<use ./imgs/cnn-yolo.png>
+Package pdftex.def Info: ./imgs/cnn-yolo.png  used on input line 226.
+(pdftex.def)             Requested size: 422.52577pt x 231.03635pt.
+
+Underfull \vbox (badness 2538) has occurred while \output is active []
+
+ [9 <./imgs/cnn-exemplo.png> <./imgs/cnn-yolo.png>]
+<./imgs/cnn-sgd.png, id=68, 600.2425pt x 243.91125pt>
+File: ./imgs/cnn-sgd.png Graphic file (type png)
+<use ./imgs/cnn-sgd.png>
+Package pdftex.def Info: ./imgs/cnn-sgd.png  used on input line 236.
+(pdftex.def)             Requested size: 341.43437pt x 138.74799pt.
+<./imgs/cnn-perda.png, id=69, 1006.76125pt x 305.14pt>
+File: ./imgs/cnn-perda.png Graphic file (type png)
+<use ./imgs/cnn-perda.png>
+Package pdftex.def Info: ./imgs/cnn-perda.png  used on input line 246.
+(pdftex.def)             Requested size: 341.43437pt x 103.48547pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./imgs/cnn-sgd.png>]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
+55.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<./imgs/t1-train_batch.jpg, id=74, 1927.2pt x 1927.2pt>
+File: ./imgs/t1-train_batch.jpg Graphic file (type jpg)
+<use ./imgs/t1-train_batch.jpg>
+Package pdftex.def Info: ./imgs/t1-train_batch.jpg  used on input line 272.
+(pdftex.def)             Requested size: 192.0548pt x 192.05493pt.
+<./imgs/t1-results.png, id=75, 433.62pt x 433.62pt>
+File: ./imgs/t1-results.png Graphic file (type png)
+<use ./imgs/t1-results.png>
+Package pdftex.def Info: ./imgs/t1-results.png  used on input line 278.
+(pdftex.def)             Requested size: 192.0548pt x 192.05714pt.
+
+Underfull \vbox (badness 5924) has occurred while \output is active []
+
+ [11 <./imgs/cnn-perda.png>]
+<./imgs/t1-confusion_matrix_normalized.png, id=80, 867.24pt x 650.43pt>
+File: ./imgs/t1-confusion_matrix_normalized.png Graphic file (type png)
+<use ./imgs/t1-confusion_matrix_normalized.png>
+Package pdftex.def Info: ./imgs/t1-confusion_matrix_normalized.png  used on inp
+ut line 289.
+(pdftex.def)             Requested size: 341.43437pt x 256.07838pt.
+ [12 <./imgs/t1-train_batch.jpg> <./imgs/t1-results.png> <./imgs/t1-confusion_m
+atrix_normalized.png>]
+<./imgs/t2-train_batch.jpg, id=86, 1927.2pt x 1927.2pt>
+File: ./imgs/t2-train_batch.jpg Graphic file (type jpg)
+<use ./imgs/t2-train_batch.jpg>
+Package pdftex.def Info: ./imgs/t2-train_batch.jpg  used on input line 304.
+(pdftex.def)             Requested size: 192.0548pt x 192.05493pt.
+<./imgs/t2-results.png, id=87, 433.62pt x 433.62pt>
+File: ./imgs/t2-results.png Graphic file (type png)
+<use ./imgs/t2-results.png>
+Package pdftex.def Info: ./imgs/t2-results.png  used on input line 311.
+(pdftex.def)             Requested size: 192.0548pt x 192.05714pt.
+<./imgs/t2-confusion_matrix_normalized.png, id=88, 867.24pt x 650.43pt>
+File: ./imgs/t2-confusion_matrix_normalized.png Graphic file (type png)
+<use ./imgs/t2-confusion_matrix_normalized.png>
+Package pdftex.def Info: ./imgs/t2-confusion_matrix_normalized.png  used on inp
+ut line 324.
+(pdftex.def)             Requested size: 341.43437pt x 256.07838pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13 <./imgs/t2-train_batch.jpg> <./imgs/t2-results.png>]
+<./imgs/t3-train_batch.jpg, id=94, 1606.0pt x 1606.0pt>
+File: ./imgs/t3-train_batch.jpg Graphic file (type jpg)
+<use ./imgs/t3-train_batch.jpg>
+Package pdftex.def Info: ./imgs/t3-train_batch.jpg  used on input line 339.
+(pdftex.def)             Requested size: 192.0548pt x 192.05003pt.
+<./imgs/t3-results.png, id=95, 433.62pt x 433.62pt>
+File: ./imgs/t3-results.png Graphic file (type png)
+<use ./imgs/t3-results.png>
+Package pdftex.def Info: ./imgs/t3-results.png  used on input line 346.
+(pdftex.def)             Requested size: 192.0548pt x 192.05714pt.
+<./imgs/t3-confusion_matrix_normalized.png, id=96, 867.24pt x 650.43pt>
+File: ./imgs/t3-confusion_matrix_normalized.png Graphic file (type png)
+<use ./imgs/t3-confusion_matrix_normalized.png>
+Package pdftex.def Info: ./imgs/t3-confusion_matrix_normalized.png  used on inp
+ut line 358.
+(pdftex.def)             Requested size: 341.43437pt x 256.07838pt.
+ [14 <./imgs/t2-confusion_matrix_normalized.png> <./imgs/t3-train_batch.jpg> <.
+/imgs/t3-results.png>]
+<./imgs/t4-train_batch.jpg, id=102, 1606.0pt x 1606.0pt>
+File: ./imgs/t4-train_batch.jpg Graphic file (type jpg)
+<use ./imgs/t4-train_batch.jpg>
+Package pdftex.def Info: ./imgs/t4-train_batch.jpg  used on input line 373.
+(pdftex.def)             Requested size: 192.0548pt x 192.05003pt.
+<./imgs/t4-results.png, id=103, 433.62pt x 433.62pt>
+File: ./imgs/t4-results.png Graphic file (type png)
+<use ./imgs/t4-results.png>
+Package pdftex.def Info: ./imgs/t4-results.png  used on input line 380.
+(pdftex.def)             Requested size: 192.0548pt x 192.05714pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <./imgs/t3-confusion_matrix_normalized.png>]
+<./imgs/t4-confusion_matrix_normalized.png, id=108, 867.24pt x 650.43pt>
+File: ./imgs/t4-confusion_matrix_normalized.png Graphic file (type png)
+<use ./imgs/t4-confusion_matrix_normalized.png>
+Package pdftex.def Info: ./imgs/t4-confusion_matrix_normalized.png  used on inp
+ut line 392.
+(pdftex.def)             Requested size: 341.43437pt x 256.07838pt.
+<./imgs/t5-train_batch.jpg, id=109, 1606.0pt x 1606.0pt>
+File: ./imgs/t5-train_batch.jpg Graphic file (type jpg)
+<use ./imgs/t5-train_batch.jpg>
+Package pdftex.def Info: ./imgs/t5-train_batch.jpg  used on input line 406.
+(pdftex.def)             Requested size: 192.0548pt x 192.05003pt.
+<./imgs/t5-results.png, id=110, 433.62pt x 433.62pt>
+File: ./imgs/t5-results.png Graphic file (type png)
+<use ./imgs/t5-results.png>
+Package pdftex.def Info: ./imgs/t5-results.png  used on input line 413.
+(pdftex.def)             Requested size: 192.0548pt x 192.05714pt.
+ [16 <./imgs/t4-train_batch.jpg> <./imgs/t4-results.png> <./imgs/t4-confusion_m
+atrix_normalized.png>]
+<./imgs/t5-confusion_matrix_normalized.png, id=116, 867.24pt x 650.43pt>
+File: ./imgs/t5-confusion_matrix_normalized.png Graphic file (type png)
+<use ./imgs/t5-confusion_matrix_normalized.png>
+Package pdftex.def Info: ./imgs/t5-confusion_matrix_normalized.png  used on inp
+ut line 426.
+(pdftex.def)             Requested size: 341.43437pt x 256.07838pt.
+
+Underfull \vbox (badness 4254) has occurred while \output is active []
+
+ [17 <./imgs/t5-train_batch.jpg> <./imgs/t5-results.png> <./imgs/t5-confusion_m
+atrix_normalized.png>]
+<./imgs/t6-train_batch.jpg, id=122, 1606.0pt x 1606.0pt>
+File: ./imgs/t6-train_batch.jpg Graphic file (type jpg)
+<use ./imgs/t6-train_batch.jpg>
+Package pdftex.def Info: ./imgs/t6-train_batch.jpg  used on input line 440.
+(pdftex.def)             Requested size: 192.0548pt x 192.05003pt.
+<./imgs/t6-results.png, id=123, 433.62pt x 433.62pt>
+File: ./imgs/t6-results.png Graphic file (type png)
+<use ./imgs/t6-results.png>
+Package pdftex.def Info: ./imgs/t6-results.png  used on input line 447.
+(pdftex.def)             Requested size: 192.0548pt x 192.05714pt.
+<./imgs/t6-confusion_matrix_normalized.png, id=124, 867.24pt x 650.43pt>
+File: ./imgs/t6-confusion_matrix_normalized.png Graphic file (type png)
+<use ./imgs/t6-confusion_matrix_normalized.png>
+Package pdftex.def Info: ./imgs/t6-confusion_matrix_normalized.png  used on inp
+ut line 459.
+(pdftex.def)             Requested size: 341.43437pt x 256.07838pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./imgs/t6-train_batch.jpg> <./imgs/t6-results.png>]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 4
+67.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+<./imgs/teste1/frame_infer_00015.jpg, id=129, 803.0pt x 803.0pt>
+File: ./imgs/teste1/frame_infer_00015.jpg Graphic file (type jpg)
+<use ./imgs/teste1/frame_infer_00015.jpg>
+Package pdftex.def Info: ./imgs/teste1/frame_infer_00015.jpg  used on input lin
+e 478.
+(pdftex.def)             Requested size: 192.0548pt x 192.05003pt.
+<./imgs/teste1/frame_infer_00025.jpg, id=130, 803.0pt x 803.0pt>
+File: ./imgs/teste1/frame_infer_00025.jpg Graphic file (type jpg)
+<use ./imgs/teste1/frame_infer_00025.jpg>
+Package pdftex.def Info: ./imgs/teste1/frame_infer_00025.jpg  used on input lin
+e 483.
+(pdftex.def)             Requested size: 192.0548pt x 192.05003pt.
+<./imgs/teste1/frame_infer_00035.jpg, id=131, 803.0pt x 803.0pt>
+File: ./imgs/teste1/frame_infer_00035.jpg Graphic file (type jpg)
+<use ./imgs/teste1/frame_infer_00035.jpg>
+Package pdftex.def Info: ./imgs/teste1/frame_infer_00035.jpg  used on input lin
+e 491.
+(pdftex.def)             Requested size: 192.0548pt x 192.05003pt.
+<./imgs/teste1/frame_infer_00045.jpg, id=132, 803.0pt x 803.0pt>
+File: ./imgs/teste1/frame_infer_00045.jpg Graphic file (type jpg)
+<use ./imgs/teste1/frame_infer_00045.jpg>
+Package pdftex.def Info: ./imgs/teste1/frame_infer_00045.jpg  used on input lin
+e 496.
+(pdftex.def)             Requested size: 192.0548pt x 192.05003pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19 <./imgs/t6-confusion_matrix_normalized.png>]
+<./imgs/teste2/frame_infer_00015.jpg, id=139, 803.0pt x 803.0pt>
+File: ./imgs/teste2/frame_infer_00015.jpg Graphic file (type jpg)
+<use ./imgs/teste2/frame_infer_00015.jpg>
+Package pdftex.def Info: ./imgs/teste2/frame_infer_00015.jpg  used on input lin
+e 510.
+(pdftex.def)             Requested size: 192.0548pt x 192.05003pt.
+<./imgs/teste2/frame_infer_00020.jpg, id=140, 803.0pt x 803.0pt>
+File: ./imgs/teste2/frame_infer_00020.jpg Graphic file (type jpg)
+<use ./imgs/teste2/frame_infer_00020.jpg>
+Package pdftex.def Info: ./imgs/teste2/frame_infer_00020.jpg  used on input lin
+e 515.
+(pdftex.def)             Requested size: 192.0548pt x 192.05003pt.
+<./imgs/teste2/frame_infer_00025.jpg, id=141, 803.0pt x 803.0pt>
+File: ./imgs/teste2/frame_infer_00025.jpg Graphic file (type jpg)
+<use ./imgs/teste2/frame_infer_00025.jpg>
+Package pdftex.def Info: ./imgs/teste2/frame_infer_00025.jpg  used on input lin
+e 523.
+(pdftex.def)             Requested size: 192.0548pt x 192.05003pt.
+<./imgs/teste2/frame_infer_00035.jpg, id=142, 803.0pt x 803.0pt>
+File: ./imgs/teste2/frame_infer_00035.jpg Graphic file (type jpg)
+<use ./imgs/teste2/frame_infer_00035.jpg>
+Package pdftex.def Info: ./imgs/teste2/frame_infer_00035.jpg  used on input lin
+e 528.
+(pdftex.def)             Requested size: 192.0548pt x 192.05003pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <./imgs/teste1/frame_infer_00015.jpg> <./imgs/teste1/frame_infer_00025.jpg
+> <./imgs/teste1/frame_infer_00035.jpg> <./imgs/teste1/frame_infer_00045.jpg>]
+<./imgs/teste3/frame_infer_00015.jpg, id=146, 803.0pt x 803.0pt>
+File: ./imgs/teste3/frame_infer_00015.jpg Graphic file (type jpg)
+<use ./imgs/teste3/frame_infer_00015.jpg>
+Package pdftex.def Info: ./imgs/teste3/frame_infer_00015.jpg  used on input lin
+e 541.
+(pdftex.def)             Requested size: 192.0548pt x 192.05003pt.
+<./imgs/teste3/frame_infer_00025.jpg, id=147, 803.0pt x 803.0pt>
+File: ./imgs/teste3/frame_infer_00025.jpg Graphic file (type jpg)
+<use ./imgs/teste3/frame_infer_00025.jpg>
+Package pdftex.def Info: ./imgs/teste3/frame_infer_00025.jpg  used on input lin
+e 546.
+(pdftex.def)             Requested size: 192.0548pt x 192.05003pt.
+<./imgs/teste3/frame_infer_00035.jpg, id=148, 803.0pt x 803.0pt>
+File: ./imgs/teste3/frame_infer_00035.jpg Graphic file (type jpg)
+<use ./imgs/teste3/frame_infer_00035.jpg>
+Package pdftex.def Info: ./imgs/teste3/frame_infer_00035.jpg  used on input lin
+e 554.
+(pdftex.def)             Requested size: 192.0548pt x 192.05003pt.
+<./imgs/teste3/frame_infer_00045.jpg, id=149, 803.0pt x 803.0pt>
+File: ./imgs/teste3/frame_infer_00045.jpg Graphic file (type jpg)
+<use ./imgs/teste3/frame_infer_00045.jpg>
+Package pdftex.def Info: ./imgs/teste3/frame_infer_00045.jpg  used on input lin
+e 559.
+(pdftex.def)             Requested size: 192.0548pt x 192.05003pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21 <./imgs/teste2/frame_infer_00015.jpg> <./imgs/teste2/frame_infer_00020.jpg
+> <./imgs/teste2/frame_infer_00025.jpg> <./imgs/teste2/frame_infer_00035.jpg>] 
+[22 <./imgs/teste3/frame_infer_00015.jpg> <./imgs/teste3/frame_infer_00025.jpg>
+ <./imgs/teste3/frame_infer_00035.jpg> <./imgs/teste3/frame_infer_00045.jpg>]
+(./sbc-template.bbl
+Underfull \vbox (badness 3977) has occurred while \output is active []
+
+ [23]
+Underfull \hbox (badness 10000) in paragraph at lines 21--29
+\OT1/pcr/m/n/12 / / www . kaggle . com / datasets / payutch / fall-[]video-[]da
+taset / data$\OT1/ptm/m/n/12 ,
+ []
+
+) [24] (./sbc-template.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6271 strings out of 476162
+ 110712 string characters out of 5794814
+ 1939975 words of memory out of 5000000
+ 28215 multiletter control sequences out of 15000+600000
+ 580420 words of font info for 72 fonts, out of 8000000 for 9000
+ 16 hyphenation exceptions out of 8191
+ 72i,10n,79p,1580b,561s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb
+i8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on sbc-template.pdf (24 pages, 11901359 bytes).
+PDF statistics:
+ 198 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+

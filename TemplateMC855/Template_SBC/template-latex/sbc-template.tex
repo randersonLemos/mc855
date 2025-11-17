@@ -1,0 +1,83 @@
+% Adaptado para a disciplina MC855 do template da SBC para publicação de artigos disponível em https://www.sbc.org.br/documentosinstitucionais/
+
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+\usepackage{graphicx,url}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel} % Troque portuguese para english para escrever em inglês
+\usepackage{natbib}
+\usepackage{booktabs}
+\bibliographystyle{plainnat}
+
+\sloppy
+
+% Título do trabalho
+\title{A General Framework for Reinforcement Learning in Cognitive Architectures}
+
+% Integrantes do grupo
+\author{Integrante A\inst{1}, Integrante B\inst{1}, ...}
+\address{Instituto de Computação -- Universidade Estadual de Campinas (UNICAMP)\\Campinas, SP -- Brazil}
+
+\begin{document} 
+
+% Montagem do título. Não tire daqui!
+\maketitle 
+
+% Opcionalmente, você pode descomentar estas linhas para adicionar um abstract (resumo em inglês)
+%\begin{abstract}
+%\end{abstract}
+     
+\begin{resumo} 
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in diam tristique, egestas est maximus, mollis nisi. Donec tellus est, blandit sit amet ex id, facilisis venenatis elit. Duis convallis metus nisl, ac imperdiet purus placerat nec. Etiam egestas non sapien sed tristique. Vivamus sem felis, faucibus sed tempus nec, porttitor ac est. Nulla venenatis eu ipsum a congue. Cras eleifend odio sed vehicula feugiat. Nullam condimentum aliquam eros cursus ornare. Nulla varius volutpat consequat.
+\end{resumo}
+
+% O comando \section define uma seção. O comando label logo depois dá uma label a esta seção para que possamos nos referir a ela. Neste caso, podemos nos referir a ela com \ref{sec:introd}. Veja também os comandos \subsection e \subsubsection
+\section{Introdução}\label{sec:introd}
+Maecenas consectetur dui odio, eget ornare odio semper a. Aenean vitae nunc urna. Curabitur vulputate scelerisque felis, id placerat felis ultricies ac. Nulla vel sem est. Fusce porttitor a lacus a porta. Cras diam ipsum, auctor pretium ullamcorper eget, ornare sed neque. Aenean eu dui a nibh suscipit fringilla. Maecenas eu nisl eros. Proin eget neque lobortis, ullamcorper nunc eget, dapibus erat. Vestibulum tristique rhoncus ex in cursus. Maecenas eleifend, enim sit amet sagittis pulvinar, quam arcu maximus nisl, dignissim pretium enim mauris vel ligula. Aliquam erat volutpat. Maecenas ornare lacus metus, eu vehicula magna laoreet quis. Quisque ac elementum risus, a pulvinar mauris. Nam commodo tortor in nisl pellentesque dignissim a in sapien. 
+
+Este é um exemplo de como podemos citar um artigo, veja sbc-template.bib para entender como organizar suas citações \citep{vaswani2017attention}.
+
+Aqui um exemplo de nota de rodapé\footnote{Este é um exemplo de nota de rodapé}
+
+\section{Dados}\label{sec:dados}
+
+Maecenas eu hendrerit nibh. Donec aliquet tempus odio id tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus molestie mi vitae dui interdum, et cursus nisi ultrices. Phasellus et felis varius, interdum urna non, convallis neque. Vivamus elit enim, lacinia ac vehicula eu, volutpat id orci. Maecenas id fermentum urna, et laoreet diam. Donec ultricies ante at ipsum feugiat feugiat. Mauris vestibulum nibh non mattis posuere. Nunc quis tincidunt erat, et congue magna.
+
+Este é um exemplo de como podemos referenciar uma label (Figura \ref{fig:example}).
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Template_SBC/template-latex/fig1.jpg}
+    \caption{Este é um exemplo de imagem}
+    \label{fig:example}
+\end{figure}
+
+Suspendisse nisl nunc, ultricies quis eros quis, suscipit pharetra risus. Quisque blandit nibh mi, vel vulputate urna mollis ut. Praesent lobortis sem ex, ut vestibulum ex porta consequat. Cras tempor in lectus sit amet bibendum. Vivamus nunc augue, pharetra eget nibh in, blandit bibendum augue. Nullam pulvinar egestas lobortis. Integer ullamcorper egestas auctor. Maecenas vitae nisi augue. Aliquam suscipit lectus quis ligula malesuada, at facilisis lectus condimentum. Mauris eleifend leo sit amet ipsum mattis consectetur. Sed elementum neque mollis sapien volutpat sagittis. Nunc nisl metus, porta ut nulla sit amet, rhoncus dictum sem.
+
+Aqui um exemplo de como referenciar uma tabela (Tabela \ref{tab:example}).
+
+% Você pode usar o https://www.tablesgenerator.com/ para gerar tabelas com mais facilidade. Experimente com as opções presentes no site para gerar tabelas mais bonitas. Esta tabela foi gerada lá
+\begin{table}[h!]
+\centering
+\begin{tabular}{@{}llll@{}}
+\toprule
+         & Métrica 1 & Métrica 2 & Métrica 3 \\ \midrule
+Modelo A & 1         & 9         & 3         \\
+Modelo B & 3         & 15        & 2         \\
+Modelo C & 2         & 1         & 4         \\ \bottomrule
+\end{tabular}
+\caption{Este é um exemplo de tabela}
+\label{tab:example}
+\end{table}
+
+\section{Conclusão}\label{sec:conc}
+Integer lobortis odio eget nulla rutrum condimentum. Integer ac finibus elit, at egestas ante. Quisque elit felis, ornare eu nisl vel, vehicula convallis lectus. Donec sed malesuada augue, id consectetur orci. Sed felis ipsum, eleifend a elementum at, semper nec erat. Duis volutpat ullamcorper facilisis. Aenean posuere nunc massa, nec porta odio viverra ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut imperdiet, risus blandit aliquet ultricies, tellus urna cursus magna, sit amet consectetur mi nulla a dolor. Praesent nec dolor justo. Donec sodales, tellus a iaculis elementum, ante eros scelerisque nisl, vitae tempor tellus ligula sodales nisi.
+
+Cras imperdiet mi at lorem luctus, eu eleifend justo eleifend. Maecenas faucibus ultrices odio, quis porta risus auctor ac. In eu facilisis justo. Curabitur non auctor massa, a elementum odio. In eros turpis, posuere a auctor finibus, congue vitae sem. Morbi neque quam, auctor maximus malesuada ac, vestibulum a urna. Integer eget nunc erat. Sed et varius eros, eu tempus tellus.
+
+% Estes comandos definem o finall do texto. Não tire eles daqui!
+\bibliographystyle{sbc}
+\bibliography{sbc-template}
+
+\end{document}

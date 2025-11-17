@@ -1,0 +1,66 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alam et~al.(2024)]{Alam2024GMDCSA24}
+E.~Alam et~al.
+\newblock Gmdcsa-24: A dataset for human fall detection in videos, 2024.
+
+\bibitem[Boyd and Vandenberghe(2004)]{boyd2004convex}
+Stephen Boyd and Lieven Vandenberghe.
+\newblock \emph{Convex Optimization}.
+\newblock Cambridge University Press, Cambridge, UK, 2004.
+\newblock ISBN 978-0521833783.
+\newblock URL \url{https://web.stanford.edu/~boyd/cvxbook/}.
+
+\bibitem[Charfi et~al.(2013)Charfi, Mitran, Dubois, Atri, and
+  Tourki]{charfi2013fall}
+I.~Charfi, J.~Mitran, J.~Dubois, M.~Atri, and R.~Tourki.
+\newblock Le2i fall dataset.
+\newblock
+  \url{https://www.kaggle.com/datasets/payutch/fall-video-dataset/data}, 2013.
+\newblock Please cite: I. Charfi, J. Mitran, J. Dubois, M. Atri, R. Tourki,
+  "Optimised spatio-temporal descriptors for real-time fall detection:
+  comparison of SVM and Adaboost based classification", Journal of Electronic
+  Imaging (JEI), Vol. 22, Issue 4, pp. 17, October 2013.
+
+\bibitem[{Kaggle}(2025)]{kaggle2025}
+{Kaggle}.
+\newblock Kaggle: Your machine learning and data science community.
+\newblock \url{https://www.kaggle.com/}, 2025.
+\newblock Accessed: 2025-09-22.
+
+\bibitem[LeCun et~al.(1998)LeCun, Bottou, Bengio, and
+  Haffner]{lecun1998gradient}
+Yann LeCun, L{\'e}on Bottou, Yoshua Bengio, and Patrick Haffner.
+\newblock Gradient-based learning applied to document recognition.
+\newblock \emph{Proceedings of the IEEE}, 86\penalty0 (11):\penalty0
+  2278--2324, 1998.
+\newblock \doi{10.1109/5.726791}.
+\newblock URL \url{https://doi.org/10.1109/5.726791}.
+
+\bibitem[Payutch(2025)]{payutch2025}
+Payutch.
+\newblock Fall video dataset.
+\newblock
+  \url{https://www.kaggle.com/datasets/payutch/fall-video-dataset/data}, 2025.
+\newblock Accessed: 2025-09-22, Kaggle.
+
+\bibitem[Robbins and Monro(1951)]{robbins1951stochastic}
+Herbert Robbins and Sutton Monro.
+\newblock A stochastic approximation method.
+\newblock \emph{The Annals of Mathematical Statistics}, 22\penalty0
+  (3):\penalty0 400--407, 1951.
+\newblock \doi{10.1214/aoms/1177729586}.
+\newblock URL \url{https://doi.org/10.1214/aoms/1177729586}.
+
+\bibitem[Ultralytics(2025)]{ultralytics2025}
+Ultralytics.
+\newblock Ultralytics – ultralytics official website.
+\newblock \url{https://www.ultralytics.com/}, 2025.
+\newblock Accessed: 2025-09-22.
+
+\end{thebibliography}

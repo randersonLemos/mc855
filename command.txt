@@ -1,0 +1,10 @@
+# Loop through all mp4 files
+for f in *.mp4; do
+    # Set output GIF name
+    gif="${f%.mp4}.gif"
+    
+    # Convert mp4 to gif
+    ffmpeg -i "$f" -vf "fps=15,scale=480:-1:flags=lanczos" -gifflags +transdiff "$gif"
+    
+    echo "Converted $f to $gif"
+done
